@@ -1,0 +1,204 @@
+.background{
+	background:#fd7c35;
+
+}
+body{
+	color:black;
+}
+.container {
+  display: flex;
+  width: 560px;
+  margin: 0 auto;
+  padding-right: 300px;
+  padding-left: 300px;
+  padding-top: 33px;
+  font-size: 64px; 
+  line-height: 21px; 
+  font-weight: 700;
+  font-family: "PT Sans Caption", "Arial", sans-serif; 
+  line-height: 83px;
+}
+.header{
+ color:white;
+ width: 560px;
+ height: 83px;
+ margin-bottom:22px;
+
+}
+
+h2{
+	font-size: 32px;
+	font-weight: 700;
+}
+
+
+ h2, h3, p, input {
+	font-family: 'PT Sans Caption';
+	margin: 0;
+}
+
+
+.form{
+	margin: 0 auto;
+	background: white;
+	width: 560px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+.content_container {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.gender {
+	border: 1px solid #FD7D36;
+	border-radius: 5px;
+	display: flex;
+	margin-bottom: 40px;
+
+}
+.gender_choice {
+	appearance: none;
+}
+
+.gender_male {
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 17px;
+	cursor: pointer;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	font-family: 'PT Sans Caption';
+}
+.gender_female {
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 17px;
+	cursor: pointer;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	font-family: 'PT Sans Caption';
+}
+.gender_title {
+	margin-bottom: 15px;
+	font-size: 32px;
+    line-height: 41px;
+}
+.physical_information {
+	display: flex;
+	justify-content: space-between;
+}
+.age_title {
+	display: flex;
+	margin-bottom: 15px;
+	align-items: flex-end;
+	cursor: pointer;
+}
+.height_title {
+	display: flex;
+	margin-bottom: 15px;
+	align-items: flex-end;
+	cursor: pointer;
+}
+.weight_title {
+	display: flex;
+	margin-bottom: 15px;
+	align-items: flex-end;
+	cursor: pointer;
+}
+.input_field {
+	width: 70px;
+	height: 35px;
+	margin-bottom: 25px;
+	text-align: center;
+	border-radius:7 
+}
+.unit_of_measure {
+	color: grey;
+	padding-bottom: 0px;
+	line-height: 25px;
+	margin-left: 5px;
+}
+.activity_type {
+	display: flex;
+}
+.activity_type_text:hover {
+	color: #FD7D36;
+}
+.phys_act_title {
+	margin-bottom: 15px;
+}
+.phys_act {
+	margin-right: 10px;
+}
+.phys_act_description {
+	margin-left: 23px;
+	color: #bdbdbd;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.buttons {
+	display: flex;
+	margin-top: 30px;
+}
+.count_button {
+	background: #FD7D36;
+	width: 180px;
+	height: 55px;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	font-weight: 400;
+    font-size: 24px;
+    line-height: 15px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.clear_button {
+	color:#fd7c35;
+	display: flex;
+	cursor: pointer;
+	line-height: 50px;
+	font-size: 20px;
+	border: none;
+	 background: white;
+}
+.hidden_container {
+	display: none;
+}
+footer {
+	margin-bottom: 50px;
+}
+.result {
+	display: flex;
+	justify-content: space-between;
+}
+.result_title {
+	color: #FD7D36;
+	margin-bottom: 20px;
+}
+.result_info {
+	font-weight: 700;
+    font-size: 20px;
+}
+.result_info_description {
+	color: #7e7e7e;
+	font-size: 18px;
+    line-height: 21px;
+    width: 103px;
+}
+
+
+.activity_type input[type="radio"]:checked + h3 {
+  color:#fd7c35 ;
+}
+
+.gender input[type="radio"]:checked + h1 {
+  color: #FFFFFF;
+  background-color: #ca2c92;
