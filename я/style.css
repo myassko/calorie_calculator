@@ -46,7 +46,7 @@ h2{
 	margin-bottom: 20px;
 }
 
-.content_container {
+.content {
 	width: 500px;
 	margin: 0 auto;
 	padding-top: 40px;
@@ -63,7 +63,7 @@ h2{
 	appearance: none;
 }
 
-.gender_male {
+.male {
 	width: 250px;
 	height: 50px;
 	line-height: 50px;
@@ -74,7 +74,7 @@ h2{
 	border-bottom-left-radius: 4px;
 	font-family: 'PT Sans Caption';
 }
-.gender_female {
+.female {
 	width: 250px;
 	height: 50px;
 	line-height: 50px;
@@ -90,23 +90,23 @@ h2{
 	font-size: 32px;
     line-height: 41px;
 }
-.physical_information {
+.physical_info {
 	display: flex;
 	justify-content: space-between;
 }
-.age_title {
+.age {
 	display: flex;
 	margin-bottom: 15px;
 	align-items: flex-end;
 	cursor: pointer;
 }
-.height_title {
+.height {
 	display: flex;
 	margin-bottom: 15px;
 	align-items: flex-end;
 	cursor: pointer;
 }
-.weight_title {
+.weight{
 	display: flex;
 	margin-bottom: 15px;
 	align-items: flex-end;
@@ -147,7 +147,7 @@ h2{
 	display: flex;
 	margin-top: 30px;
 }
-.count_button {
+.count{
 	background: #FD7D36;
 	width: 180px;
 	height: 55px;
@@ -160,7 +160,7 @@ h2{
     margin-right: 25px;
     cursor: pointer;
 }
-.clear_button {
+.clear {
 	color:#fd7c35;
 	display: flex;
 	cursor: pointer;
@@ -182,6 +182,7 @@ footer {
 .result_title {
 	color: #FD7D36;
 	margin-bottom: 20px;
+
 }
 .result_info {
 	font-weight: 700;
@@ -199,6 +200,17 @@ footer {
   color:#fd7c35 ;
 }
 
-.gender input[type="radio"]:checked + h1 {
-  color: #FFFFFF;
-  background-color: #ca2c92;
+.container_footer{
+ 
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.footer{
+	width: 560px;
+	margin:0 auto;
+}
+.content_container{
+	background: white;
+	padding:32px 32px 32px 32px;
+	border-radius: 12px;
+}
