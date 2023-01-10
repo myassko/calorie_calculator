@@ -2,31 +2,31 @@ let gender = document.querySelector('#male').value;
 let age = document.querySelector('#age');
 let height = document.querySelector('#height');
 let weight = document.querySelector('#weight');
-let buttonCount = document.querySelector('.count_button');
+let buttonCount = document.querySelector('.count');
 let physAct;
 age.value = 0;
 height.value = 0;
 weight.value = 0;
 buttonCount.setAttribute('disabled', true);
 buttonCount.style.backgroundColor = 'rgb(220, 220,220)';
-let buttonClear = document.querySelector('.clear_button');
+let buttonClear = document.querySelector('.clear');
 buttonClear.style.color = 'rgb(220, 220,220)';
 buttonClear.setAttribute('disabled', true);
-	document.querySelector('.gender_male').style.backgroundColor = 'rgb(253, 125,54)';
-	document.querySelector('.gender_male').style.color = 'rgb(255, 255,255)';
+	document.querySelector('.male').style.backgroundColor = 'rgb(253, 125,54)';
+	document.querySelector('.male').style.color = 'rgb(255, 255,255)';
 document.querySelector('#male').onclick = function maleButton() {
 	gender = document.querySelector('#male').value;
-	document.querySelector('.gender_male').style.backgroundColor = 'rgb(253, 125,54)';
-	document.querySelector('.gender_male').style.color = 'rgb(255, 255,255)';
-	document.querySelector('.gender_female').style.color = 'rgb(0, 0, 0)';
-	document.querySelector('.gender_female').style.backgroundColor = 'rgb(255, 255,255)';
+	document.querySelector('.male').style.backgroundColor = 'rgb(253, 125,54)';
+	document.querySelector('.male').style.color = 'rgb(255, 255,255)';
+	document.querySelector('.female').style.color = 'rgb(0, 0, 0)';
+	document.querySelector('.female').style.backgroundColor = 'rgb(255, 255,255)';
 }
 document.querySelector('#female').onclick = function femaleButton() {
 	gender = document.querySelector('#female').value;
-	document.querySelector('.gender_female').style.backgroundColor = 'rgb(253, 125,54)';
-	document.querySelector('.gender_female').style.color = 'rgb(255, 255,255)';
-	document.querySelector('.gender_male').style.color = 'rgb(0, 0, 0)';
-	document.querySelector('.gender_male').style.backgroundColor = 'rgb(255, 255,255)';
+	document.querySelector('.female').style.backgroundColor = 'rgb(253, 125,54)';
+	document.querySelector('.female').style.color = 'rgb(255, 255,255)';
+	document.querySelector('.male').style.color = 'rgb(0, 0, 0)';
+	document.querySelector('.male').style.backgroundColor = 'rgb(255, 255,255)';
 }
 age.oninput = function () {
 	if (age.value != 0 && height.value != 0 && weight.value != 0) {
@@ -95,10 +95,10 @@ buttonClear.onclick = function () {
 	document.querySelector('.footer').classList.add('hidden_container');
 	buttonCount.style.backgroundColor = 'rgb(220, 220,220)';
 	gender = document.querySelector('#male').value;
-	document.querySelector('.gender_male').style.backgroundColor = 'rgb(253, 125,54)';
-	document.querySelector('.gender_male').style.color = 'rgb(255, 255,255)';
-	document.querySelector('.gender_female').style.color = 'rgb(0, 0, 0)';
-	document.querySelector('.gender_female').style.backgroundColor = 'rgb(255, 255,255)';
+	document.querySelector('.male').style.backgroundColor = 'rgb(253, 125,54)';
+	document.querySelector('.male').style.color = 'rgb(255, 255,255)';
+	document.querySelector('.female').style.color = 'rgb(0, 0, 0)';
+	document.querySelector('.female').style.backgroundColor = 'rgb(255, 255,255)';
 	document.querySelector('.min_phys_act').checked = true;
 }
 buttonCount.onclick = function () {
